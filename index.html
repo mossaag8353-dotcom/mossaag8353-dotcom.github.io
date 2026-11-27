@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Balises SEO pour être facilement trouvable sur Google -->
-    <title>Mossa Ag ALMAIMOUNE - Étudiant en Réseau Informatique & Gérant de TANFO NAKAL</title>
+    <title>Mossa Ag ALMAIMOUNE - Étudiant en Réseau Informatique & Gérant de L'entreprise TANFO NAKAL</title>
     <meta name="description" content="Site officiel de Mossa Ag ALMAIMOUNE, étudiant en réseau informatique résidant à Bamako et gérant de l'entreprise TANFO NAKAL.">
     <meta name="keywords" content="Mossa Ag ALMAIMOUNE, TANFO NAKAL, Réseau informatique, Bamako, N'tillit, Mali">
     <meta name="author" content="Mossa Ag ALMAIMOUNE">
@@ -25,7 +25,7 @@
         "addressLocality": "Bamako",
         "addressCountry": "ML"
       },
-      "jobTitle": "Gérant de TANFO NAKAL / Étudiant en Réseau informatique",
+      "jobTitle": "Gérant de L'entreprise  TANFO NAKAL / Étudiant en Réseau informatique",
       "worksFor": {
         "@type": "Organization",
         "name": "TANFO NAKAL"
@@ -41,8 +41,8 @@
             margin: 0;
             padding: 0;
             display: flex;
-            justify-content: center;
-            align-items: center;
+            justify-content: left;
+            align-items: left;
             min-height: 100vh;
         }
         .container {
@@ -54,6 +54,36 @@
             box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
             border-top: 6px solid #0056b3;
         }
+         /* profil cercle */
+        .profil-header {
+        display: flex;
+        flex-direction: left;
+        justify-content: space-between;
+        align-items: left;
+        gap: 50%;
+        margin-bottom: 35%;
+        text-align: left;
+
+        }
+        .profil-pic {
+        width: 85px;
+        height: 85px;
+        border-radius: 70%;
+        object-fit: cover;
+        object-position: top center;/*garder votre visage bien centre dans le cercle */
+        border: 3px solide #0056b3;
+        flex-shrink: 0;
+
+    }
+    .profil-info h1 {
+        margin: 0 0 3px 0;
+        line-height: 1.2;
+    }
+    .profil-info .subtile {
+        margin: 0;
+        font-size: 15px;
+        color: #555;
+    }
         h1 {
             color: #0056b3;
             margin-top: 0;
@@ -96,10 +126,32 @@
     </style>
 </head>
 <body>
-
     <div class="container">
-        <h1>Mossa Ag ALMAIMOUNE</h1>
-        <div class="subtitle">Étudiant en Réseau informatique & Gérant de TANFO NAKAL</div>
+    <div class="profil-header">
+
+    </div class="profil-info"
+       <div>
+        <h1>
+            <img src="C:\Users\Mossa\Desktop\Profil.photo.jpeg"alt="Mossa Ag ALMAIMOUNE" Class="profil-pic"> 
+            Mossa Ag ALMAIMOUNE</h1>
+     </div>
+        <div  class="section">
+            <h2>
+                À propos de moi
+            </h2>
+            <div class="description-box"
+            <p>
+                Originaire de N'tillit<em> (GAO)</em> et résidant actuellement à Bamako, je suis un jeune  entrpreneur et  étudiant passionné  par les nouvelles technologies et les infrastructures numériques.
+            </p>
+            <p
+                <strong>Parcours académique :</strong>Actuellement étudiant en <em>Réseau informatique</em>
+            </p>
+            <p>
+                <strong>Activités professionnelles :</strong>En parallèle de mes études en <em> Réseau information </em>, je développe mes competences technique en administration reseau,maintenace et sécurite des système d'information.
+            </p>
+
+        </div>
+        <div class="subtitle">Étudiant en Réseau informatique & Gérant de L'entreprise  TANFO NAKAL</div>
 
         <ul class="info-list">
             <li>
